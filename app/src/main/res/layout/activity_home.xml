@@ -70,7 +70,7 @@
 
                     <TextView
                         android:background="@drawable/background"
-                        android:text="Latest News"
+                        android:text="1.1"
                         android:textAlignment="center"
                         android:textColor="@android:color/white"
                         android:textSize="18sp"
@@ -110,7 +110,7 @@
 
                     <TextView
                         android:background="@drawable/background"
-                        android:text="Fan base"
+                        android:text="1.2"
                         android:textAlignment="center"
                         android:textColor="@android:color/white"
                         android:textSize="18sp"
@@ -151,7 +151,7 @@
                         android:background="@drawable/background"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:text="Contact"
+                        android:text="2.1"
                         android:textAlignment="center"
                         android:textColor="@android:color/white"
                         android:textSize="18sp"
