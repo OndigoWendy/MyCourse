@@ -29,14 +29,35 @@
         android:textStyle="bold"
         app:fontFamily="serif-monospace" />
 
+
     <Button
+        android:id="@+id/findRestaurantsButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Find Restaurants"
-        android:id="@+id/findRestaurantsButton"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="344dp"
         android:background="@color/colorAccent"
+        android:text="Chemistry Department"
+        android:textColor="@color/colorTextIcons" />
+
+    <Button
+        android:id="@+id/findRestaurantsButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="242dp"
+        android:background="@color/colorAccent"
+        android:text="Physics Department"
+        android:textColor="@color/colorTextIcons" />
+
+    <Button
+        android:id="@+id/findRestaurantsButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="122dp"
+        android:background="@color/colorAccent"
+        android:text="Maths Department"
         android:textColor="@color/colorTextIcons" />
 
     <EditText
