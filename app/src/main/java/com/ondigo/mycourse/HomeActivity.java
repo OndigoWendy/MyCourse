@@ -29,13 +29,13 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         if(view.getId() == R.id.cvFans)
         {
             //Do something Like starting an activity
-            Intent intent = new Intent(HomeActivity.this, MainActivity.class);
+            Intent intent = new Intent(HomeActivity.this, YearOneSem2Activity.class);
             startActivity(intent);
         }
         if(view.getId() == R.id.cvConcerts)
         {
             //Do something Like starting an activity
-            Intent intent = new Intent(HomeActivity.this, MainActivity.class);
+            Intent intent = new Intent(HomeActivity.this, YearOneSem2Activity.class);
             startActivity(intent);
         }
     }

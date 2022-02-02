@@ -7,12 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
-public class MainActivity extends AppCompatActivity  implements View.OnClickListener  {
+public class YearOneSem2Activity extends AppCompatActivity  implements View.OnClickListener  {
         @BindView(R.id.findRestaurantsButton)
         Button mFindRestaurantsButton;
         @BindView(R.id.locationEditText)
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_main);
+            setContentView(R.layout.activity_yearonesemtwo);
             ButterKnife.bind(this);
 
             mFindRestaurantsButton.setOnClickListener(this);
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
         public void onClick(View v){
             if (v == mFindRestaurantsButton) {
                 String location = mLocationEditText.getText().toString();
-                Intent intent = new Intent(MainActivity.this, CoursesActivity.class);
+                Intent intent = new Intent(YearOneSem2Activity.this, CoursesActivity.class);
                 intent.putExtra("location", location);
                 startActivity(intent);
             }
