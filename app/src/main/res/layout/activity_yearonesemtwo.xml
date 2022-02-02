@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ondigo.mycourse.MainActivity"
+    tools:context="com.ondigo.mycourse.YearOneSem2Activity"
     android:background="#000000">
 
     <ImageView
@@ -31,7 +31,7 @@
 
 
     <Button
-        android:id="@+id/findRestaurantsButton"
+        android:id="@+id/findCourseButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/locationEditText"
         android:background="@color/colorTextIcons"
-        android:layout_above="@+id/findRestaurantsButton"
+        android:layout_above="@+id/findCourseButton"
         android:layout_marginBottom="90dp"
         android:padding="5dp"
         android:hint="Select a department"
