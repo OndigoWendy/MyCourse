@@ -13,8 +13,8 @@ import butterknife.ButterKnife;
 
 
 public class YearOneSem2Activity extends AppCompatActivity  implements View.OnClickListener  {
-        @BindView(R.id.findRestaurantsButton)
-        Button mFindRestaurantsButton;
+        @BindView(R.id.findCourseButton)
+        Button mFindCourseButton;
         @BindView(R.id.locationEditText)
         EditText mLocationEditText;
         @BindView(R.id.appNameTextView) TextView mAppNameTextView;
@@ -25,11 +25,11 @@ public class YearOneSem2Activity extends AppCompatActivity  implements View.OnCl
             setContentView(R.layout.activity_yearonesemtwo);
             ButterKnife.bind(this);
 
-            mFindRestaurantsButton.setOnClickListener(this);
+            mFindCourseButton.setOnClickListener(this);
         }
         @Override
         public void onClick(View v){
-            if (v == mFindRestaurantsButton) {
+            if (v == mFindCourseButton) {
                 String location = mLocationEditText.getText().toString();
                 Intent intent = new Intent(YearOneSem2Activity.this, CoursesActivity.class);
                 intent.putExtra("location", location);
