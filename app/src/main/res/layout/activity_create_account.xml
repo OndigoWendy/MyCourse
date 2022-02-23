@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.CreateAccountActivity"
-    android:background="@color/colorPrimary">
+    tools:context=".CreateAccountActivity"
+    android:background="@color/purple_700">
 
     <LinearLayout
         android:orientation="vertical"
