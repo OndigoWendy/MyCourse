@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "956971273465",
+    "project_id": "mycourse-635db",
+    "storage_bucket": "mycourse-635db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956971273465:android:e756c149b99b058e856628",
+        "android_client_info": {
+          "package_name": "com.ondigo.mycourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956971273465-o9bd0hglmjtbbhifp5fsgmi2n4v9vnn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ondigo.mycourse",
+            "certificate_hash": "76978a8f84a0b2ab488816f9dda7b9c70c58a9f7"
+          }
+        },
+        {
+          "client_id": "956971273465-vidt8jf6pstmvjp3d5f2saiejnucaq30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA-JcbKqKKgErXNXMYALoaFiDbBGO4V4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956971273465-vidt8jf6pstmvjp3d5f2saiejnucaq30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
