@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textColor="@color/colorPrimaryText"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="18sp"
             android:text="Don't have an account? Sign up here!"
@@ -71,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:textColor="@color/colorPrimaryLight"
+        android:textColor="@color/white"
         android:textSize="30dp"
         android:textStyle="bold"
         android:layout_above="@+id/linearLayout"
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_below="@+id/firebaseProgressBar"
-        android:textColor="@color/colorPrimaryText"
+        android:textColor="@color/white"
         android:layout_margin="20dp"
         android:visibility="gone" />
 
