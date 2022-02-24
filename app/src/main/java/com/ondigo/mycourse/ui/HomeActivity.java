@@ -1,4 +1,4 @@
-package com.ondigo.mycourse;
+package com.ondigo.mycourse.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.ondigo.mycourse.R;
 
 import butterknife.ButterKnife;
 
@@ -85,7 +86,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     private void logout(){
         FirebaseAuth.getInstance().signOut();
-        Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
+        Intent intent = new Intent(HomeActivity.this, CreateAccountActivity.LoginActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
         finish();

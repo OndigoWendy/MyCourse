@@ -1,4 +1,4 @@
-package com.ondigo.mycourse;
+package com.ondigo.mycourse.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,9 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.ondigo.mycourse.MyCoursesArrayAdapter;
+import com.ondigo.mycourse.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

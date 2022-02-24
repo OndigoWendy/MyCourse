@@ -1,4 +1,4 @@
-package com.ondigo.mycourse;
+package com.ondigo.mycourse.ui;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,6 +18,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.ondigo.mycourse.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -126,3 +127,5 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         mLoadingSignUp.setVisibility(View.GONE);
     }
 }
+
+
