@@ -1,8 +1,10 @@
-package com.ondigo.mycourse;
+package com.ondigo.mycourse.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.ondigo.mycourse.R;
 
 public class FrontActivity extends AppCompatActivity {
 

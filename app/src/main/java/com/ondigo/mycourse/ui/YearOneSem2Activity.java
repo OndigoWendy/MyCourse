@@ -1,4 +1,4 @@
-package com.ondigo.mycourse;
+package com.ondigo.mycourse.ui;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import com.ondigo.mycourse.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
